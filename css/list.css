@@ -1,0 +1,132 @@
+/* 单独的列表页 */
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 23px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e77b';
+    font-family: "iconfont" !important;
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.miaosu {
+    margin: 0 20px 0;
+    font-size: 14px;
+}
+
+.price h2 {
+    float: left;
+    padding: 18px 12px 12px 20px;
+    color: #c81523;
+}
+
+.price h4 {
+    float: left;
+    padding-top: 25px;
+    text-decoration: line-through;
+}
+
+.sell {
+    float: left;
+}
+
+.sell p {
+    float: left;
+    padding-left: 20px;
+}
+
+.sell div {
+    float: left;
+}
+
+.bar {
+    margin-left: 5px;
+    float: left;
+    width: 150px;
+    height: 15px;
+    border: 1px solid #fe5544;
+    border-radius: 7px;
+    padding: 1px;
+}
+
+.bar_in {
+    width: 90%;
+    height: 100%;
+    background-color: #fe5544;
+}
+
+.besides p {
+    float: left;
+}
+
+.besides div {
+    float: left;
+}
+
+.rs a {
+    display: block;
+    width: 290px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #c81523;
+}
